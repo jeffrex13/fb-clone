@@ -1,0 +1,14 @@
+.feed {
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .feed {
+        padding: 30px 60px;
+    }
+}
